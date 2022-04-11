@@ -1,0 +1,23 @@
+@media (max-width: 576px){
+    .break-point {background: red;}
+}
+@media (min-width: 576px){
+    .break-point {background: green;}
+}
+@media (min-width:768px){
+    .break-point {background: blue;}  
+}
+@media (min-width: 992px){
+    .break-point {background: orange;}
+}
+@media (min-width: 1200px){
+    .break-point {background: pink;}
+}
+@media (min-width: 1400px){
+    .break-point {background: cyan;}
+}
+
+.break-point{
+    padding: 20px;
+    color: white;
+}
