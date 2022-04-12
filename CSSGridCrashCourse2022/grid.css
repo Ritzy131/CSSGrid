@@ -16,4 +16,18 @@ body{
     max-width: 960px;
     margin: 100px auto;
     padding: 10px;
+    display: grid;
+    /* grid-template-columns: 100px 200px 300px; */
+    grid-template-columns: repeat(3, 1fr);
+    /* column-gap: 10px; */
+    /* row-gap: 10px; */
+    gap: 10px;
+}
+
+.item{
+    background: steelblue;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    border: skyblue 1px solid;
 }
